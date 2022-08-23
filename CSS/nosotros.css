@@ -1,0 +1,48 @@
+#btn1, #btn2, #btn3, #btn4{
+    border: 0px solid transparent;
+    background-color: transparent;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: inline-block;  
+}
+
+button:hover{
+    color: pink;
+}
+
+button:focus{
+    color:palevioletred;
+}
+
+header{
+    background-color: white;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+button{
+    background-color: transparent;
+    border: 0px;
+    font-size: 20px;
+    color: black;
+}
+
+.footer{
+    margin-top:50px;
+    width:100%;
+    height:200px;
+    border:1px;
+   
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom:0px ;
+    background-color: black;
+    color:white
+}
+
+#banner2{
+    width: 720px;
+    
+}

@@ -3,7 +3,7 @@ body{
     background-color: white;
 }
 
-#btn1, #btn2, #btn3{
+#btn1, #btn2, #btn3, #btn4{
     border: 0px solid transparent;
     background-color: transparent;
     padding-bottom: 10px;
@@ -40,7 +40,7 @@ button{
     position: relative;
 }
 
-footer{
+.footer{
     margin-top:50px;
     width:100%;
     height:200px;
