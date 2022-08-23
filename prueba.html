@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/prueba.css" type="text/css">
+</head>
+<body>
+    <center>
+        <header>
+            <ul id="botones">
+                <li id="btn1" ><button>Home</button></li>
+                <li id="btn2" ><button>Nosotros</button></li>
+                <li id="btn3"><button>Contacto</button></li>
+            </ul>
+        </header>
+    </center>
+    <br><br><br>
+    <div id="contacto">
+        <div id="form">
+            <br>
+            <label>Nombre</label>
+            <br>
+            <input type="text" id="nombre" name="nombre" required="required" onkeyup="aceptar()"/>
+            <br>
+            <label>Telefono</label>
+            <br>
+            <input type="text" id="telefono" name="telefono" required="required" minlength="9" maxlength="9" size="20" onkeyup="aceptar()"/>
+            <br>
+            <label>Asunto</label>
+            <br>
+            <textarea id="asunto" name="asunto" required="required" style="resize:none;" onkeyup="aceptar()"></textarea>
+            <br>
+            <br>
+            <button id="enviar">Enviar</button>
+        </div>
+        
+        <div id="contact">
+            <img id="imagencontacto" src="IMG/logo.png">
+    
+        </div>
+    </div>
+    
+
+    <footer>
+   
+        <div class="suscribete1">
+       <a >Suscribete</a>
+       </div>
+       
+   
+</footer>
+</body>
+</html>

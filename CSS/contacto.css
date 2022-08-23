@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    background-color: white;
+}
+
+#btn1, #btn2, #btn3{
+    border: 0px solid transparent;
+    background-color: transparent;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: inline-block;
+}
+
+button:hover{
+    color: pink;
+}
+
+button:focus{
+    color:palevioletred;
+}
+
+header{
+    background-color: white;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+button{
+    background-color: transparent;
+    border: 0px;
+    font-size: 20px;
+    color: black;
+}
+
+#form {
+    height: 330px;
+    display: inline-block;
+    position: relative;
+}
+
+footer{
+    margin-top:50px;
+    width:100%;
+    height:200px;
+    border:1px;
+   
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom:0px ;
+    background-color: black;
+    color:white
+}
+
+#contacto{
+    width: 1000px;
+    height: 400px;
+    margin-left: 400px;
+}
+
+#nombre{
+    font-size: 20px;
+    width: 400px;
+    
+}
+
+#telefono{
+    font-size: 20px;
+    width: 400px;
+   
+}
+
+#asunto{
+    height: 150px;
+    width: 400px;
+}
+
+label{
+    font-size: 20px;
+}
+
+#enviar{
+    background-color: black;
+    color:white;
+    width: 100px;
+    height: 50px;
+}
+
+#imagencontacto{
+    width: 450px;
+    height: 400px;
+    position: absolute;
+    margin-left: 50px;
+}
+
+#contact{
+    width: 520px;
+    height: 300px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+
+
