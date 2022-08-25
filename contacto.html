@@ -11,10 +11,10 @@
     <center>
         <header>
             <ul id="botones">
-                <li id="btn1" ><button>Home</button></li>
-                <li id="btn2" ><button>Catalogo</button></li>
-                <li id="btn3" ><button>Nosotros</button></li>
-                <li id="btn4"><button>Contacto</button></li>
+                <li id="btn1" ><button><a href="index.html">Home</a></button></li>
+                <li id="btn2" ><button><a href="catalogo.html">Catalogo</a></button></li>
+                <li id="btn3" ><button><a href="nosotros.html">Nosotros</a></button></li>
+                <li id="btn4"><button><a href="contacto.html">Contacto</a></button></li>
             </ul>
         </header>
     </center>
@@ -24,7 +24,7 @@
     </center>
     <br><br>
     <div id="contacto">
-        <div id="form">
+        <form id="form">
             <br>
             <label>Nombre</label>
             <br>
@@ -39,26 +39,37 @@
             <textarea id="asunto" name="asunto" required="required" style="resize:none;" onkeyup="aceptar()"></textarea>
             <br>
             <br>
-            <button id="enviar">Enviar</button>
-        </div>
+            <button type="submit" id="enviar">Enviar</button>
+        </form>
         
         <div id="contact">
             <img id="imagencontacto" src="IMG/logo.png">
     
         </div>
     </div>
-    
-
-  
-   
     <div class="footer">
-        <table>
-
-        </table>
-       
+        <div id="C1"></div> 
+        <div id="C2">
+            <h2>Suscríbete</h2>
+            <h3>Entérate de nuestras ofertas y del nuevo stock.</h3>
+            <input type="text" id="email" name="email" placeholder="Ingresa tu correo" onkeyup="aceptar()"/>
+            <br><br>
+            <button type="submit" id="enviar2">Enviar</button>
+        </div>   
+        <div id="C3">
+            <h2>Servicio al Cliente</h2>
+            <h3>Telefono: 987654321</h3>
+            <ul> 
+                <li>Cambios y devoluciones</li>
+                <li>Terminos y condiciones</li>
+                <li>Despachos</li>
+            </ul>
+        </div> 
+        <div id="C4">
+            <h2>Nuestras redes</h2>
+            <p><img id="ig" src="IMG/ig.PNG">Ropa_gala.cl</p>
+            <p><img id="fb" src="IMG/fb.PNG">Ropa gala.cl</p>
+        </div>     
     </div>
-       
-   
-
 </body>
 </html>
