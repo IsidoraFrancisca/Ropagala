@@ -9,31 +9,37 @@
 </head>
 <body>
     <center>
-        <header>
+        <header id="container">
             <ul id="botones">
-                <li id="btn1" ><button><a href="index.html">Home</a></button></li>
-                <li id="btn2" ><button><a href="catalogo.html">Catalogo</a></button></li>
-                <li id="btn3" ><button><a href="nosotros.html">Nosotros</a></button></li>
-                <li id="btn4"><button><a href="contacto.html">Contacto</a></button></li>
+                <li id="btn1" ><button><a href="index.html" class="links">Home</a></button></li>
             </ul>
+            <ul class="acorh">
+                <li id="btn2"><button><a class="links">Catalogo</a></button>
+                  <ul class="contenedor-acordeon-items">
+                    <li class="acordeon"><a class="links" href="catalogoVestidos.html">Vestidos</a></li>
+                    <li class="acordeon"><a class="links" href="catalogoBlazer.html">Blazer</a></li>
+                    <li class="acordeon"><a class="links" href="catalogoPantalon.html">Pantalon</a></li>
+                  </ul>
+                </li>
+              </ul>
+            <ul>
+                <li id="btn3" ><button><a href="nosotros.html" class="links">Nosotros</a></button></li>
+                <li id="btn4"><button><a href="contacto.html" class="links">Contacto</a></button></li>
+            </ul>
+
+
         </header>
-        <center>
-                <h1>Nosotros</h1>
-                <hr>
-            </center>
         <div>
-            <img id="banner2" src="IMG/banner.png">
+            <img id="banner2" src="IMG/banner3.png">
         </div>
     </center>
-        
-                <a>RopaGala, es la nueva plataforma de ventas de ropa formal,
-                ya sea vestidos, pantalones y/o blazer. Todos los articulos</a><br> 
-                <a>ponemos a la venta en nuestra tienda ROPAGALA.CL pasan por un 
-                proceso previo de seleccion, para que las prendas</a><br> 
-                <a>que vendemos sean siempre las mejores.</a>
-          
-           
-        
+        <br>
+        <div class="contenedor-info">
+                <p class="parrafo">RopaGala, es la nueva plataforma de ventas de ropa formal, ya sea vestidos, pantalones y/o blazer. Todos los articulos ponemos a la venta en nuestra tienda ROPAGALA.CL pasan por un 
+                proceso previo de seleccion, para que las prendas que vendemos sean siempre las mejores.</p>
+
+        </div>
+
         <div class="footer">
             <div id="C1"></div> 
             <div id="C2">

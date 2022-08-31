@@ -69,7 +69,6 @@ button{
 #telefono{
     font-size: 20px;
     width: 400px;
-   
 }
 
 #asunto{
@@ -136,6 +135,7 @@ a{
     text-decoration: none;
     color:black
 }
+
 a:hover{
     color:pink;
 }
@@ -149,5 +149,81 @@ a:focus{
     border-color: white;
     border:solid 1px;
 }
+
+
+
+#btn1, #btn3, #btn4{
+    border: 0px solid transparent;
+    background-color: transparent;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: inline-block;  
+}
+
+header{
+    background-color: white;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;  
+}
+
+button{
+    background-color: transparent;
+    border: 0px;
+    font-size: 20px;
+    color: black;
+}
+
+.links{
+    text-decoration: none;
+    color:black
+}
+
+.links:hover{
+    color:pink;
+}
+
+a:focus{
+    color:palevioletred;
+}
+   
+ul.acorh li {
+    display: block;
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+ul.acorh li ul {
+    max-height: 0;
+    overflow: hidden;
+    transition: .3s all ease-in;
+}
+
+.acorh  {
+    background: white;
+    color: #000;
+    font-size: 18px;
+    border: 0;
+}
+
+.acorh li:hover ul {
+    max-height: 300px;
+    transition: .3s all ease-in;
+}
+
+ul.acorh li a:hover {
+    color: pink;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 
 

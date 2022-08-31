@@ -9,13 +9,25 @@
 </head>
 <body>
     <center>
-        <header>
+        <header id="container">
             <ul id="botones">
-                <li id="btn1" ><button><a href="index.html">Home</a></button></li>
-                <li id="btn2" ><button><a href="catalogo.html">Catalogo</a></button></li>
-                <li id="btn3" ><button><a href="nosotros.html">Nosotros</a></button></li>
-                <li id="btn4"><button><a href="contacto.html">Contacto</a></button></li>
+                <li id="btn1" ><button><a href="index.html" class="links">Home</a></button></li>
             </ul>
+            <ul class="acorh">
+                <li id="btn2"><button><a class="links">Catalogo</a></button>
+                  <ul class="contenedor-acordeon-items">
+                    <li class="acordeon"><a class="links" href="catalogoVestidos.html">Vestidos</a></li>
+                    <li class="acordeon"><a class="links" href="catalogoBlazer.html">Blazer</a></li>
+                    <li class="acordeon"><a class="links" href="catalogoPantalon.html">Pantalon</a></li>
+                  </ul>
+                </li>
+              </ul>
+            <ul>
+                <li id="btn3" ><button><a href="nosotros.html" class="links">Nosotros</a></button></li>
+                <li id="btn4"><button><a href="contacto.html" class="links">Contacto</a></button></li>
+            </ul>
+
+
         </header>
     </center>
     <center>
@@ -41,10 +53,8 @@
             <br>
             <button type="submit" id="enviar">Enviar</button>
         </form>
-        
         <div id="contact">
             <img id="imagencontacto" src="IMG/logo.png">
-    
         </div>
     </div>
     <div class="footer">
@@ -54,7 +64,7 @@
             <h3>Entérate de nuestras ofertas y del nuevo stock.</h3>
             <input type="text" id="email" name="email" placeholder="Ingresa tu correo" onkeyup="aceptar()"/>
             <br><br>
-            <button type="submit" id="enviar2">Enviar</button>
+            <form><button type="submit" id="enviar2">Enviar</button></form>
         </div>   
         <div id="C3">
             <h2>Servicio al Cliente</h2>
